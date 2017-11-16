@@ -52,72 +52,6 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     margin-top: -2px;
     pointer-events: none;
 }
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
-/*.hamburger {
-  float: left;
-  padding: 15px 15px;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  height: 26px;
-  overflow: visible; }
-  .hamburger:hover {
-    opacity: 0.7; }
-
-.hamburger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative; }
-.hamburger:focus{
-    outline: none;
-}
-.hamburger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px; }
-  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
-    height: 2px;
-    background-color: #000;
-    border-radius: 4px;
-    position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease; }
-  .hamburger-inner::before, .hamburger-inner::after {
-    content: "";
-    display: block; }
-  .hamburger-inner::before {
-    top: -10px; }
-  .hamburger-inner::after {
-    bottom: -10px; }
-
-.hamburger--arrow.is-active .hamburger-inner::before {
-  transform: translate3d(-9px, 0, 0) rotate(-45deg) scale(0.7, 1); }
-
-.hamburger--arrow.is-active .hamburger-inner::after {
-  transform: translate3d(-9px, 0, 0) rotate(45deg) scale(0.7, 1); }
-
-.hamburger--arrow-r.is-active .hamburger-inner::before {
-  transform: translate3d(9px, 0, 0) rotate(45deg) scale(0.7, 1); }
-
-.hamburger--arrow-r.is-active .hamburger-inner::after {
-  transform: translate3d(9px, 0, 0) rotate(-45deg) scale(0.7, 1); }*/
 .cuppa-menu-overlay{
     position: fixed;
     background: #000;
@@ -177,12 +111,12 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   border-radius: .25em;
   -moz-border-radius: 25em;
   -webkit-border-radius: .25em;
-  background: #000;
+  background: white;
 }
 .hamburger.is-active:before,
 .hamburger.is-active .icon,
 .hamburger.is-active:after {
-  background: #000;
+  background: white;
 }
 .hamburger.hamburger-arrow-left.is-active {
   transform: rotate(180deg);
