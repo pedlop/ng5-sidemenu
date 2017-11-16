@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ng5-sidemenu",
+        "scope": null,
+        "escapedName": "ng5-sidemenu",
+        "name": "ng5-sidemenu",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ng5-sidemenu",
+    "scope": null,
+    "escapedName": "ng5-sidemenu",
+    "name": "ng5-sidemenu",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "angular-cli": {},
+  "author": {
+    "name": "Pedro"
+  },
+  "bugs": {
+    "url": "https://github.com/pedlop/ng5-sidemenu/issues"
+  },
+  "dependencies": {},
+  "description": "An Angular 5 side out navigation menu for web and mobile.",
+  "devDependencies": {},
+  "directories": {},
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  },
+  "homepage": "https://github.com/pedlop/ng5-sidemenu#readme",
+  "keywords": [
+    "angular5 menu",
+    "side menu",
+    "ng5 menu"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Pedro Victor",
+      "email": ""
+    }
+  ],
+  "name": "ng5-sidemenu",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "# Angular 5 Side Menu \n### An angular 5 side navigation menu component for mobile and web.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedlop/ng5-sidemenu.git"
+  },
+  "scripts": {
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "0.0.1"
+}
