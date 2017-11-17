@@ -25,34 +25,34 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 .menu-open{
     margin-left: 250px !important;
 }
-.cuppa-menu ul{
+.pl-menu ul{
     list-style: none;
     padding: 0px;
 }
-.cuppa-menu ul > li{
+.pl-menu ul > li{
 
 }
 .sub-menu > li > a{
     padding-left: 50px !important;
 }
-.cuppa-menu ul > li > a{
+.pl-menu ul > li > a{
     display: block;
     padding: 15px 30px;
     background: #fff;
     text-decoration: none;
     border-bottom: 1px solid #ccc;
 }
-.cuppa-menu ul > li > a:hover{
+.pl-menu ul > li > a:hover{
     background: #3fd48f !important;
     color: #fff;
 }
-.cuppa-menu ul > li > a > i{
+.pl-menu ul > li > a > i{
     font-size: 24px;
     float: right;
     margin-top: -2px;
     pointer-events: none;
 }
-.cuppa-menu-overlay{
+.pl-menu-overlay{
     position: fixed;
     background: #000;
     top: 0;

@@ -12,6 +12,19 @@
       }
     ]
   ],
+  "_from": "ng5-sidemenu@latest",
+  "_id": "ng5-sidemenu@0.0.3",
+  "_inCache": true,
+  "_location": "/ng5-sidemenu",
+  "_nodeVersion": "8.2.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ng5-sidemenu-0.0.3.tgz_1510919281855_0.9916811855509877"
+  },
+  "_npmUser": {
+    "name": "pedlop",
+    "email": "pedro_victor28@hotmail.com"
+  },
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
@@ -27,6 +40,11 @@
     "#USER",
     "/"
   ],
+  "_resolved": "https://registry.npmjs.org/ng5-sidemenu/-/ng5-sidemenu-0.0.3.tgz",
+  "_shasum": "12ca4f120bcd84b03bcd04ab95c7d92613afbd3e",
+  "_shrinkwrap": null,
+  "_spec": "ng5-sidemenu",
+  "_where": "/Users/Pedro/Documents/Pedro/integracao2017/portal-es",
   "angular-cli": {},
   "author": {
     "name": "Pedro"
@@ -38,10 +56,15 @@
   "description": "An Angular 5 side out navigation menu for web and mobile.",
   "devDependencies": {},
   "directories": {},
+  "dist": {
+    "shasum": "12ca4f120bcd84b03bcd04ab95c7d92613afbd3e",
+    "tarball": "https://registry.npmjs.org/ng5-sidemenu/-/ng5-sidemenu-0.0.3.tgz"
+  },
   "engines": {
     "node": ">= 4.2.1",
     "npm": ">= 3"
   },
+  "gitHead": "1c32e461948091a4e6fed00d6c55dc1a7bb6a595",
   "homepage": "https://github.com/pedlop/ng5-sidemenu#readme",
   "keywords": [
     "angular5 menu",
@@ -51,8 +74,7 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "Pedro Victor",
-      "email": ""
+      "name": "Pedro Victor"
     }
   ],
   "name": "ng5-sidemenu",
@@ -71,5 +93,5 @@
     "start": "ng serve",
     "test": "ng test"
   },
-  "version": "0.0.2"
+  "version": "0.0.4"
 }

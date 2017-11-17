@@ -1,8 +1,8 @@
 <span (clickOutside)="closeMenu()">
-    <button (click)="menuToggle()" class="hamburger hamburger-arrow-left" [ngClass]="{'is-active': menuState, '': !menuState}">
+    <button #tref (click)="menuToggle()" class="hamburger hamburger-arrow-left" [ngClass]="{'is-active': menuState, '': !menuState}">
         <span class="icon"></span>
     </button>
-<div class="menu-container cuppa-menu" [ngClass]="{'show-menu': menuState, 'hide-menu': !menuState}">
+<div class="menu-container pl-menu" [ngClass]="{'show-menu': menuState, 'hide-menu': !menuState}">
     <ul>
         <li *ngFor="let item of menulist" (click)="onItemClick(item)">
             <a (click)="toggleSubMenu(item)">{{item.title}} 
@@ -15,5 +15,3 @@
         </li>
     </ul>
 </div>
-<span>
-<!--<div class="cuppa-menu-overlay" [ngClass]="{'show-overlay': menuState, 'hide-overlay': !menuState}"></div> -->
